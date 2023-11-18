@@ -1,0 +1,25 @@
+<form enctype="multipart/form-data" method="post">
+    {% csrf_token %}
+    {% for campo in Contacto %}
+
+<div class="row justify-content-center" style="align-items: center; " >
+    <div class="col-md-4 mb-2 mb-sm-0">
+      <div class="card" >
+        <div class="card-body" style="background-color: rgb(62, 102, 220);">
+          <h5 class="card-title" style="text-align: center; color:rgb(0, 0, 0)">Nuestro Equipo se prondra en comunicacion lo mas pronto posible</h5>
+        </div>
+        <div class="card">
+            <div class="card-body" style="background-color: rgb(255, 255, 255);">
+            <input class="form-control form-control-lg" type="text" placeholder="Nombre" aria-label=".form-control-lg example">
+            <div class="input-group flex-nowrap" style="margin-top: 10px;">
+              <span class="input-group-text" id="addon-wrapping">@</span>
+              <input type="email" class="form-control" placeholder="Correo@example.com" aria-label="Username" aria-describedby="addon-wrapping">
+            </div>
+            <input class="form-control" type="text" placeholder="Celular (Opcional)" aria-label="default input example" style="margin-top: 10px;">
+            <input class="form-control" type="text" placeholder="Descripcion" aria-label="default input example" style="margin-top: 10px;">
+          </div>
+          <a href="#" class="btn btn-primary">Enviar</a>
+        </div>
+      </div>
+    </div>
+  </div>
