@@ -80,7 +80,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'mitiendadb',
         'USER': 'root',
-        'PASSWORD': 'Miprinsheshita12$',
+        'PASSWORD': 'sucontraseña',
         'HOST': 'localhost',
         'PORT': '3306'
     }
